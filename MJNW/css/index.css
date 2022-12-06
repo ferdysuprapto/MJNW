@@ -1,0 +1,342 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: #bfedbe;
+}
+
+/* BERANDA */
+.kepala {
+    width: 1200%;
+    height: auto;
+    position: relative;
+}
+.judul {
+    font-size: 60px;
+    color: white;
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+}
+.menu{
+    float: right;
+}
+nav {
+    background: #033d02;
+    width: 100%;
+    height: auto;
+    display: flex;
+    line-height: 90px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+nav ul li {
+    float: right;
+}
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.profil a img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 40px;
+}
+.profil {
+    float: right;
+    position: relative;
+    top: 0;
+}
+.profil a img:hover{
+    cursor: pointer;
+}
+.tbl_daftar {
+    margin-right: 40px;
+}
+.konten {
+    width: 900px;
+    height: auto;
+}
+.konten img {
+    width: 1000px;
+    height: 300px;
+    border-radius: 10px;
+    border: 2px solid black;
+    margin-top: 50px;
+    margin-left: 130px;
+}
+.berita {
+    width: 1000px;
+    height: auto;
+    margin-left: 130px;
+}
+.berita h2 {
+    text-align: left;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.berita p {
+    text-align: justify;
+}
+footer {
+    background: #033d02;
+}
+footer h4 {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    padding: 20px;
+    font-weight: lighter;
+}
+/* BERANDA */
+/* STRUKTUR */
+#anggota {
+    width: 1000px;
+    height: auto;
+    margin-bottom: 40px;
+}
+.ketua {
+    background: #033d02;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 130px;
+    margin-top: 40px;
+    border: 2px solid black;
+    height: 220px;
+    width: 1000px;
+}
+.ketua img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+.ketua ul li {
+    color: white;
+    margin-left: 30px;
+    list-style-type: none;
+    text-decoration: none;
+    line-height: 20px;
+    text-transform: capitalize;
+    font-size: 20px;
+    margin-top: 10px;
+}
+/* STRUKTUR */
+/* GALERI */
+.gallery {
+    display: grid;
+    margin-bottom: 40px;
+}
+.gallery .kotak {
+    width: 1000px;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 170px;
+    grid-gap: 0px;
+    margin-top: 50px;
+}
+.gallery .kotak img {
+    width: 300px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* GALERI */
+/* PRODUK */
+
+/* PRODUK */
+/* TENTANG KAMI*/
+
+/* TENTANG KAMI */
+/* KONTAK */
+.sosmed {
+    width: 700px;
+    height: 440px;
+    background: #033d02;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 50px auto;
+    display: flex;
+}
+.sosmed ul li {
+    list-style-type: none;
+    text-decoration: none;
+    margin-left: 150px;
+    margin-top: 10px;
+    margin-right: 0px;
+}
+.nama-sosmed li a {
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+    margin-top: 80px;
+    line-height: 60px;
+    margin-left: -140px;
+}
+.nama-sosmed li a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}   
+.sosmed .tiktok {
+    width: 60px;
+    height: 60px;
+}
+.sosmed .twitter {
+    width: 60px;
+    height: 50px;
+}
+.sosmed .instagram {
+    width: 60px;
+    height: 60px;
+}
+.sosmed .youtube {
+    width: 70px;
+    height: 45px;
+}
+.sosmed .whatsapp {
+    width: 60px;
+    height: 60px;
+}
+.sosmed .facebook {
+    width: 60px;
+    height: 60px;
+}
+.komentar {
+    width: 800px;
+    height: 400px;
+    background: #033d02;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 50px auto;
+    position: relative;
+}
+.komentar h4 {
+    color: white;
+    font-size: 19px;
+    margin: 9px;
+    align-items: center;
+}
+#komen {
+    margin: 10px 20px 0px ;
+    background: lightgray;
+    width: 750px;
+    height: 300px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.komentar .btn_kirim {
+    color: black;
+    background-color: lightgreen;
+    padding: 6px;
+    border-radius: 10px;
+    float: right;
+    margin: 5px 40px 40px 0px ;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+}
+.komentar .btn_kirim:hover {
+    text-transform: uppercase;
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* KONTAK */
+/* login */
+.login {
+    width: 700px;
+    height: 440px;
+    background: #033d02;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+.login h3 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin: 20px auto;
+}
+.login .blom_ada_akun {
+    display: flex;
+}
+.blom_ada_akun h4 {
+    margin-left: 200px;
+    color: white;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.blom_ada_akun a {
+    color: black;
+    background-color: lightgreen;
+    padding: 2px;
+    border-radius: 10px;
+    width: 80px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+}
+.blom_ada_akun a:hover {
+    text-decoration: underline;
+}
+.form_login h5 {
+    text-align: left;
+    color: white;
+    font-size: 17px;
+    margin-left: 150px;
+}
+#masukan_gmail {
+    width: 400px;
+    height: 40px;
+    margin: 0px 150px;
+    display: flex;
+    margin-bottom: 30px;
+}
+#masukan_password {
+    width: 400px;
+    height: 40px;
+    margin: 0px 150px;
+}
+#btn_login {
+    color: black;
+    background-color: lightgreen;
+    padding: 6px;
+    border-radius: 10px;
+    margin: 15px 44%;
+    width: 80px;
+    font-weight: bold; 
+    font-size: 20px;
+    padding: 7px;  
+}
+#btn_login:hover {
+    text-transform: uppercase;
+    text-decoration: underline;
+    cursor: pointer;
+}
+/* login */
